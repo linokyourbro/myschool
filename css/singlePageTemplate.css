@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #f2f2f2;
+	
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -20,10 +20,10 @@ body {
 }
 /* Navigation */
 header {
-	width: 100%;
-	height: 10%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+    width: 100%;
+    height: 7%;
+    background-color: #52bad5;
+    border-bottom: 1px solid #2C9AB7;
 }
 .logo {
 	color: #fff;
@@ -126,10 +126,15 @@ ul li:hover a {
 .img-responsive{
 	width: 900px
 }
+.img-teacher{
+	width: 400px
+
+}
 .text_about_school  {
-    background: #DDDDDD;
     color: #000000;
-	width: 700px;
+    width: 900px;
+    background-color: #EFEFEF;
+	padding: 10px
 }
 
 .stats {
@@ -177,6 +182,14 @@ ul li:hover a {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.prepodavatel_dist {
+	background-color: #2D9AB7;
+	background-image: url(../images/parallax.png);
+	height: 80px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .propusk
 .parallax {
 	color: #FFFFFF;
@@ -198,6 +211,18 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+.teacher_description {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 100px;
+    width: 700px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    height: 30%
 }
 /* More info */
 footer {
@@ -500,4 +525,6 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+.h2 {
 }
